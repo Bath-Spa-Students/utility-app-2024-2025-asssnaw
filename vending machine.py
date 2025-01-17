@@ -93,7 +93,7 @@ def custom_hot_bev():
     print(f"Hot Beverage customized: {'Sugar added' if sugar else 'No sugar added'}, {'Milk added' if milk else 'No milk added'}.\n") 
 
 #Following code is written to run the main program
-if _name_ == "_main_":
+if __name__ == "__main__":
     print("Welcome to the Vending Machine!!!!")
     totalcost = 0
     categories = list(vendingmenu.keys())
