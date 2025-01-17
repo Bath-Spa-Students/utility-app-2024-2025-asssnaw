@@ -124,7 +124,7 @@ if __name__ == "__main__":
             print(f"Sorry, {item['Name']} is currently out of stock.")
             continue
 
-        if category == "Hot Beverages":
+        if category == "7":
             custom_hot_bev()
 
         totalcost += item["Price $"]
